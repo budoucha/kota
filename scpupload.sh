@@ -1,0 +1,1 @@
+scp -P <port number> <account>@<host>:<directory> ./

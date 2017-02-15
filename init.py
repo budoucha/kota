@@ -2,7 +2,7 @@
 
 import requests
 
-target_url = target_url = open("config.txt").read()
+target_url = open("config.txt").read()
 
 target_html = requests.get(target_url).text
 

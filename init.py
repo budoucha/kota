@@ -1,13 +1,13 @@
 # coding: utf-8
 
-import requests
+import requests, yaml
 
-target_url = open("config.txt").read()
+config_filename = "config.yml"
+config = yaml.load(open(config_filename))
 
+target_url = config["url"]
 target_html = requests.get(target_url).text
 
-f=open("html","w")
-
+f=open("ref_html","w")
 f.write(target_html)
-
 f.close()

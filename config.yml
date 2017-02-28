@@ -1,0 +1,5 @@
+"url": "http://example.com" # the page to check
+"sleepTime": "300" # in seconds
+"access_token": "WRITE_YOUR_TOKEN_HERE" #get token here: https://api.slack.com/docs/oauth-test-tokens 
+"channel": "write alerting channel here" # "channelname" or "@username"
+"message": "write alerting message here."
